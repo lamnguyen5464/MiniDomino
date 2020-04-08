@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pic">
+        <item>@drawable/n10</item>
+        <item>@drawable/n11</item>
+        <item>@drawable/n12</item>
+        <item>@drawable/n13</item>
+        <item>@drawable/n14</item>
+        <item>@drawable/n15</item>
+        <item>@drawable/n16</item>
+        <item>@drawable/n11</item>
+        <item>@drawable/n12</item>
+        <item>@drawable/n13</item>
+
+        <item>@drawable/n20</item>
+        <item>@drawable/n21</item>
+        <item>@drawable/n22</item>
+        <item>@drawable/n23</item>
+        <item>@drawable/n24</item>
+        <item>@drawable/n25</item>
+        <item>@drawable/n26</item>
+        <item>@drawable/n21</item>
+        <item>@drawable/n22</item>
+        <item>@drawable/n23</item>
+
+
+        <item>@drawable/n30</item>
+        <item>@drawable/n31</item>
+        <item>@drawable/n32</item>
+        <item>@drawable/n33</item>
+        <item>@drawable/n34</item>
+        <item>@drawable/n35</item>
+        <item>@drawable/n36</item>
+        <item>@drawable/n31</item>
+        <item>@drawable/n32</item>
+        <item>@drawable/n33</item>
+
+
+        <item>@drawable/n40</item>
+        <item>@drawable/n41</item>
+        <item>@drawable/n42</item>
+        <item>@drawable/n43</item>
+        <item>@drawable/n44</item>
+        <item>@drawable/n45</item>
+        <item>@drawable/n46</item>
+        <item>@drawable/n41</item>
+        <item>@drawable/n42</item>
+        <item>@drawable/n43</item>
+
+
+    </array>
+
+</resources>

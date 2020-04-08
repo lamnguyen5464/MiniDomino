@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "737973868201",
+    "firebase_url": "https://dominosliding.firebaseio.com",
+    "project_id": "dominosliding",
+    "storage_bucket": "dominosliding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737973868201:android:dcddd018dfc4d182407bb8",
+        "android_client_info": {
+          "package_name": "com.example.lforestor.dominodemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737973868201-qrdf5hlfg7pouushkt8m3h1994lgumd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_53Ie37juK6iM6feiTsnBfVh-3SnPaTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737973868201-qrdf5hlfg7pouushkt8m3h1994lgumd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737973868201:android:c304e93ac8e4472e407bb8",
+        "android_client_info": {
+          "package_name": "com.lforestor.dominodemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737973868201-qrdf5hlfg7pouushkt8m3h1994lgumd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_53Ie37juK6iM6feiTsnBfVh-3SnPaTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737973868201-qrdf5hlfg7pouushkt8m3h1994lgumd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

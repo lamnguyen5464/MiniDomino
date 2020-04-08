@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Splash">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerVertical="true"
+        android:id="@+id/scale"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini Domino"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/scale"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/colorDark"
+        android:id="@+id/t1"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/pic"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/t1"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @lamnguyen5464"
+        android:layout_centerHorizontal="true"
+        android:textColor="#494949"
+        android:textStyle="italic"
+        android:id="@+id/nameTag"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Main2Activity">
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/scale"
+        android:layout_marginBottom="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:textColor="#000"
+        android:text="Game over" />
+    <TextView
+        android:id="@+id/scale"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scale"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/scale"
+        android:layout_marginRight="5dp"
+        android:text="SCORE:"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scale"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/scale"
+        android:layout_marginLeft="5dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title1"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/scale"
+        android:layout_marginRight="5dp"
+        android:text="BEST:"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/scale"
+        android:layout_marginLeft="5dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/newscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#CE0000"
+        android:layout_toRightOf="@+id/best"
+        android:layout_alignTop="@+id/best"
+        android:text="NEW"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:src="@drawable/replay"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/best"
+        android:layout_marginTop="50dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_toLeftOf="@+id/home" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/back"
+        android:background="@android:color/transparent"
+        android:src="@drawable/home"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:id="@+id/rank"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:src="@drawable/rank"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/best"
+        android:layout_marginTop="50dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_toRightOf="@+id/home" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/unitId">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

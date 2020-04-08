@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:padding="10sp"
+        android:textSize="10sp"
+        android:layout_below="@+id/imageView"
+        android:layout_toLeftOf="@+id/t1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_menu"
+        android:clickable="true"
+        android:drawableTop="@drawable/ic_videogame_asset_black_24dp"
+        android:elevation="100dp"
+        android:text="PLAY"
+        android:textColor="#c7c7c7" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:padding="10sp"
+        android:textSize="10sp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toRightOf="@+id/t1"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/custom_button_menu"
+        android:clickable="true"
+        android:drawableTop="@drawable/ic_developer_board_black_24dp"
+        android:elevation="100dp"
+        android:text="HOW TO PLAY"
+        android:textColor="#c7c7c7" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:padding="10sp"
+        android:textSize="10sp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/custom_button_menu"
+        android:clickable="true"
+        android:drawableTop="@drawable/ic_info_outline_black_24dp"
+        android:elevation="100dp"
+        android:text="ABOUT"
+        android:textColor="#c7c7c7" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:padding="10sp"
+        android:textSize="10sp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/custom_button_menu"
+        android:clickable="true"
+        android:drawableTop="@drawable/ic_exit_to_app_black_24dp"
+        android:elevation="100dp"
+        android:text="BYE"
+        android:textColor="#c7c7c7" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="" />
+
+</RelativeLayout>
